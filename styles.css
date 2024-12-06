@@ -1,0 +1,62 @@
+body{
+    background-image:url(Facts-about-Chrismtas-5.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;  
+    justify-content: center;
+ align-items: center;
+
+}
+            
+p
+{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: red;
+text-align: center;
+font-size: 50px;
+
+}
+.rrr{
+    background-color: #1a3855;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-radius: 8px; 
+    font-weight: bold;
+    font-size: 24px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+.ttt{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 10px; 
+    width: 80%; 
+    margin: auto;
+
+}
+.rrr:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+    background-color: rgba(76, 175, 80, 1); 
+    font-size: 0;
+}
+.text {
+    position: absolute;
+    font-size: 50px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    font-size: 12px;
+    color: white;
+   
+}
+.rrr:hover .text {
+    opacity: 1;
+    transform: translateY(0);
+}
+.rrr:hover .text {
+    opacity: 1;
+    visibility: visible;
+}
